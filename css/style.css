@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(217, 28%, 15%);
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.logo img{
+    max-width: 80%;
+
+}
+
+@media screen and (max-width: 768px) {
+  .logo img{
+    max-width: 60%;
+    }  
+}
+
+@media screen and (max-width: 406px) {
+    .link ul li{
+      display: inline; 
+      padding: 0px; 
+      }  
+    #my-list-id ol,
+    #my-list-id ul {
+        list-style-type: none; 
+        padding-left: 0;
+        padding-right: 2px;
+    }
+}
+
+@media screen and (min-width: 406px){
+    .link ul li{
+        display: inline;
+        padding: 5px;
+}
+}
+/*.link{
+    margin-left: 60px;
+}*/
+
+.link ul{
+    list-style-type:none;
+    margin: 0;
+}
+
+.link ul li{
+    display: inline;
+    padding: auto;
+    opacity: .5;
+}
+
+.link ul li a{
+    color: hsl(0, 0%, 100%) ;
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.illustration-container{
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.illustration-container img{
+    max-width: 100%;
+}
+
+.illustration h1{
+    color: white;
+    font-family:'Raleway', sans-serif;
+    font-size: 22px;
+    width: 300px;
+    margin: 30px auto 20px auto;
+    text-align: center;
+}
+
+.illustration-content{
+    background-image: url('../images/bg-curvy-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:500px){
+    .illustration-content{
+        background-image: url('../images/bg-curvy-mobile.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+}
+.illustration-content p{
+    color: hsl(0, 0%, 100%) ;
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+    opacity: 0.7;
+    width: 290px;
+    text-align: center;
+    margin: auto;
+}
+button {
+    background-color: hsl(218, 28%, 13%);
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 30px;
+    color:hsl(0, 0%, 100%) ;
+    font-weight: 700;
+    display: block;
+    margin: 30px auto;
+
+}
+
+.cont{
+    background-color: hsl(218, 28%, 13%);
+}

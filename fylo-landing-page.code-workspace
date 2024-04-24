@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "fylo.landingpage",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "fylo.landingpage"
+	}
+}
