@@ -115,8 +115,7 @@ nav{
     margin: auto;
 }
 
-
-.illustration-btn {
+button {
     background-color: hsl(218, 28%, 13%);
     background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
     font-family:'Raleway', sans-serif;
@@ -132,9 +131,10 @@ nav{
 }
 
 
+
 .illustration {
     position: relative;
-    background-image:hsl(218, 28%, 13%) , url('images/illustration-intro.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/illustration-intro.png');
     background-size: cover;
     background-position: center;
 }
@@ -144,19 +144,6 @@ nav{
     color: white; /* Set text color to white for better contrast */
 }
 
-.access-content{
-
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    z-index: 10;
-    margin-top: -.5rem;
-    
-}
-
-.access-files{
-    color: white;
-    font-family:'Raleway', sans-serif;
-    text-align: center;
-    padding-top: 20px;
+.cont{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
 }
